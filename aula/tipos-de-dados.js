@@ -68,3 +68,47 @@ console.log(numero > 10);
 // 3
 const idade = 11;
 console.log(idade >= 18);
+
+// Objeto
+// Um objeto agrupa várias informações 
+let pessoa = {
+    nome:"Jessica",
+    idade: 17,
+    cidade:"Mogi das Cruzes"
+};
+console.log(pessoa.nome);
+console.log(pessoa.idade);
+console.log(pessoa.cidade);
+
+let carro = {
+    marca:"Fiat",
+    modelo: "Fiat Cronos",
+    ano: 2018
+};
+console.log(carro.marca);
+console.log(carro.modelo);
+console.log(carro.ano);
+
+//um array é uma lista q pode armazenar varios valores
+let frutas = [ 'maçã', 'banana', 'uva' ];
+
+console.log(frutas[0]);
+console.table(frutas);
+
+//adiciona ao final do array
+frutas.push('morango');
+console.log(frutas);
+console.table(frutas);
+
+//remove a ultima posição
+frutas.pop(0);
+console.table(frutas);
+
+//remover da posição indicada (splice)
+// frutas.splice(0);
+// console.table(frutas);
+
+//crie um array chamado animais e adicione 3 animais
+
+let aminais = [ 'hamster', 'quokka', 'morcego' ];
+console.table(aminais);
